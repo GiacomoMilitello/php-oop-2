@@ -30,17 +30,20 @@
 
 <body>
 
-    <main class="container">
+    <main class="container pt-5">
+
+        <h1 class="text-center text-warning my-5 fw-bold ">ARCACANET</h1>
+
         <div class="row">
             <?php foreach( $arrayProdotti as $prodotto ): ?>
             <div class="col">
-                <div class="card">
+                <div class="card mt-5">
                     <img src="<?= $prodotto->getImage() ?>" class="card-img-top" alt="<?= $prodotto->getTitle() ?>">
                     <div class="card-body">
-                        <h4 class="card-title">
+                        <h4 class="card-title text-warning text-center fw-bold">
                             <?= $prodotto->getTitle() ?>
                         </h4>
-                        <p class="card-text">
+                        <p class="card-text text-center">
                             Prezzo: <?= $prodotto->getPrice() ?> €
                             |
                             Categoria: <?= $prodotto->getCategory()->getName() ?>
