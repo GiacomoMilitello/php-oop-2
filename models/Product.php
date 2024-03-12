@@ -1,6 +1,9 @@
 <?php
 
+    include_once __DIR__ . '/../traits/Discountable.php';
+
     class Product {
+        use Discountable;
         public $title;
         public $price;
         public $category;
