@@ -14,7 +14,6 @@
             $this->title = $_title;
             $this->price = $_price;
             $this->category = $_category;
-            $this->type = $_type;
             $this->image = $_image;
         }
 
@@ -28,10 +27,6 @@
 
         public function getCategory() {
             return $this->category;
-        }
-
-        public function getType() {
-            return $this->type;
         }
 
         public function getImage() {

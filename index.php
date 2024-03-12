@@ -1,6 +1,8 @@
 <?php
 
-    include_once __DIR__ . '/models/Product.php';
+    include_once __DIR__ . '/models/Cibo.php';
+    include_once __DIR__ . '/models/Gioco.php';
+    include_once __DIR__ . '/models/Cuccia.php';
     include_once __DIR__ . '/models/Category.php';
     include_once __DIR__ . '/models/Shop.php';
 
