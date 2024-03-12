@@ -4,6 +4,10 @@
 
     class Gioco extends Product {
         public $type = 'gioco';
+
+        public function getType() {
+            return $this->type;
+        }
     }
     
 ?>

@@ -4,6 +4,10 @@
 
     class Cibo extends Product {
         public $type = 'cibo';
+
+        public function getType() {
+            return $this->type;
+        }
     }
     
 ?>

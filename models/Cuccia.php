@@ -4,6 +4,10 @@
 
     class Cuccia extends Product {
         public $type = 'cuccia';
+
+        public function getType() {
+            return $this->type;
+        }
     }
     
 ?>
